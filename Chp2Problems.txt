@@ -1,1 +1,14 @@
-Carl AllenCS 2 Chp 2 Homework 2.1.3 A example is an array of N items, which is already sorted in descending order, maximizes the failures of test array [ j ] < array[min].2.1.5 An example would be when the array with N items are already sorted.
+Carl Allen
+CS 2 Chp 2 Homework 
+
+
+
+2.1.3 A example is an array of N items, which is already sorted in descending order, maximizes the failures of test array [ j ] < array[min].
+
+2.1.5 An example would be when the array with N items are already sorted.
+  
+  for(int i=1, i)
+	for(int j=i; j>0 && a[j-1]; j--)
+  exch(a, j, j-1);
+
+
