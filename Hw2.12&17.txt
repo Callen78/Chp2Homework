@@ -1,0 +1,59 @@
+`
+Carl Allen
+Oct 19, 2018
+CS2 
+
+Chapter 2 Hw2.1.12
+
+public class Shellprint {
+    public static void sort(Comparable[] a) {
+        int n = a.length;
+	   int h = 1;
+	     int xcount = 0;
+	      while (h < N/3) h = 3*h + 1;
+	       while (h >= 1) {
+                      for (int i = h; i < N; i++) {
+                      for (int j = i; j >= h && less(a[j], a[j-h]; j -= h) {
+                      exch(a, j , j-h);
+      	         xcount++;
+	        }
+	     }
+	  System.out.println(xcount / N);
+           }
+        }
+    
+}
+
+2.1.17
+	element* linksort(element *head, int length) { 
+  	   int i = (length/2), j = (length-i);
+ 	   element *iNext, *jNext, *iTail, *jTail, *tail;
+	   if (length <= 1) 
+	      return head -> next;
+	   iTail = linksort(head, i);
+	   jTail = linksort(iTail, j);
+	   tail = head;
+	   iNext = head -> next;
+ 	   jNext = iTail -> next;
+  	   iTail -> next = jTail -> next;
+  	   while (1) {
+    	      if (cmp(iNext,jNext) <= 0) {
+      	         tail -> next = iNext;
+	         tail = iNext;
+     	         if (Ñ-i == 0) {
+	            tail -> next = jNext; 
+	            return jTail; 
+	         }
+      	         iNext = iNext -> next;
+    	      } 
+              else {
+      	         tail -> next = jNext;
+	         tail = jNext;
+      	         if (-Ñj == 0) { 
+	            tail -> next = iNext;
+	            return iTail;
+	         }
+      	         jNext = jNext -> next;
+    	      }
+  	   }
+	}
